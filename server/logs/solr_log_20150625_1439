@@ -1,0 +1,496 @@
+INFO  - 2015-06-25 08:27:16.381; [   ] org.eclipse.jetty.util.log.Log; Logging initialized @293ms
+INFO  - 2015-06-25 08:27:16.572; [   ] org.eclipse.jetty.server.Server; jetty-9.2.10.v20150310
+WARN  - 2015-06-25 08:27:16.604; [   ] org.eclipse.jetty.server.handler.RequestLogHandler; !RequestLog
+INFO  - 2015-06-25 08:27:16.607; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor [file:/home/innovator/Downloads/solr-5.2.1/server/contexts/] at interval 0
+INFO  - 2015-06-25 08:27:19.348; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+WARN  - 2015-06-25 08:27:19.368; [   ] org.eclipse.jetty.security.ConstraintSecurityHandler; ServletContext@o.e.j.w.WebAppContext@18aac0a{/solr,file:/home/innovator/Downloads/solr-5.2.1/server/solr-webapp/webapp/,STARTING}{/solr.war} has uncovered http methods for path: /
+INFO  - 2015-06-25 08:27:19.392; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()WebAppClassLoader=24015308@16e71cc
+INFO  - 2015-06-25 08:27:19.406; [   ] org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2015-06-25 08:27:19.406; [   ] org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /home/innovator/Downloads/solr-5.2.1/server/solr
+INFO  - 2015-06-25 08:27:19.407; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/innovator/Downloads/solr-5.2.1/server/solr/'
+INFO  - 2015-06-25 08:27:19.542; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from /home/innovator/Downloads/solr-5.2.1/server/solr/solr.xml
+INFO  - 2015-06-25 08:27:19.623; [   ] org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /home/innovator/Downloads/solr-5.2.1/server/solr
+INFO  - 2015-06-25 08:27:19.643; [   ] org.apache.solr.core.CoreContainer; New CoreContainer 10194717
+INFO  - 2015-06-25 08:27:19.644; [   ] org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/home/innovator/Downloads/solr-5.2.1/server/solr/]
+INFO  - 2015-06-25 08:27:19.644; [   ] org.apache.solr.core.CoreContainer; loading shared library: /home/innovator/Downloads/solr-5.2.1/server/solr/lib
+WARN  - 2015-06-25 08:27:19.644; [   ] org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: /home/innovator/Downloads/solr-5.2.1/server/solr/lib).
+INFO  - 2015-06-25 08:27:19.666; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+INFO  - 2015-06-25 08:27:19.905; [   ] org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+INFO  - 2015-06-25 08:27:19.907; [   ] org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-06-25 08:27:19.909; [   ] org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-06-25 08:27:19.911; [   ] org.apache.solr.core.CoreContainer; Node Name: 
+INFO  - 2015-06-25 08:27:19.912; [   ] org.apache.solr.core.CoreContainer; No authentication plugin used.
+INFO  - 2015-06-25 08:27:19.938; [   ] org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /home/innovator/Downloads/solr-5.2.1/server/solr
+INFO  - 2015-06-25 08:27:19.960; [   ] org.apache.solr.core.CorePropertiesLocator; Found 0 core definitions
+INFO  - 2015-06-25 08:27:19.961; [   ] org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/innovator/Downloads/solr-5.2.1/server
+INFO  - 2015-06-25 08:27:19.961; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-06-25 08:27:19.972; [   ] org.eclipse.jetty.server.handler.ContextHandler; Started o.e.j.w.WebAppContext@18aac0a{/solr,file:/home/innovator/Downloads/solr-5.2.1/server/solr-webapp/webapp/,AVAILABLE}{/solr.war}
+INFO  - 2015-06-25 08:27:20.202; [   ] org.eclipse.jetty.server.AbstractConnector; Started ServerConnector@9d2ec8{HTTP/1.1}{0.0.0.0:8983}
+INFO  - 2015-06-25 08:27:20.203; [   ] org.eclipse.jetty.server.Server; Started @4117ms
+INFO  - 2015-06-25 08:27:22.242; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1435220842184&wt=json} status=0 QTime=39 
+INFO  - 2015-06-25 08:27:22.344; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={_=1435220842317&wt=json} status=0 QTime=12 
+INFO  - 2015-06-25 08:28:18.408; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5 
+INFO  - 2015-06-25 08:28:18.452; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=5 
+INFO  - 2015-06-25 08:28:18.465; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={action=STATUS&core=geospace&wt=json} status=0 QTime=1 
+INFO  - 2015-06-25 08:28:18.506; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command action=CREATE&wt=json&instanceDir=geospace&name=geospace
+INFO  - 2015-06-25 08:28:18.511; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=geospace, config=solrconfig.xml, instanceDir=geospace, loadOnStartup=true, absoluteInstDir=/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/, schema=schema.xml, transient=false, dataDir=data/}
+INFO  - 2015-06-25 08:28:18.511; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/'
+INFO  - 2015-06-25 08:28:18.574; [   ] org.apache.solr.core.SolrConfig; current version of requestparams : 0
+INFO  - 2015-06-25 08:28:18.582; [   ] org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2015-06-25 08:28:18.605; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2015-06-25 08:28:18.605; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2015-06-25 08:28:18.606; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+INFO  - 2015-06-25 08:28:18.606; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2015-06-25 08:28:18.607; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2015-06-25 08:28:18.607; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+INFO  - 2015-06-25 08:28:18.608; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2015-06-25 08:28:18.608; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2015-06-25 08:28:18.609; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/poi-3.11.jar' to classloader
+INFO  - 2015-06-25 08:28:18.609; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+INFO  - 2015-06-25 08:28:18.610; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+INFO  - 2015-06-25 08:28:18.610; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+INFO  - 2015-06-25 08:28:18.611; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+INFO  - 2015-06-25 08:28:18.611; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2015-06-25 08:28:18.612; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/rome-1.0.jar' to classloader
+INFO  - 2015-06-25 08:28:18.612; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/xz-1.5.jar' to classloader
+INFO  - 2015-06-25 08:28:18.613; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+INFO  - 2015-06-25 08:28:18.613; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+INFO  - 2015-06-25 08:28:18.613; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+INFO  - 2015-06-25 08:28:18.614; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2015-06-25 08:28:18.614; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2015-06-25 08:28:18.615; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+INFO  - 2015-06-25 08:28:18.615; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+INFO  - 2015-06-25 08:28:18.615; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+INFO  - 2015-06-25 08:28:18.616; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2015-06-25 08:28:18.616; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+INFO  - 2015-06-25 08:28:18.616; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+INFO  - 2015-06-25 08:28:18.616; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+INFO  - 2015-06-25 08:28:18.617; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2015-06-25 08:28:18.617; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+INFO  - 2015-06-25 08:28:18.617; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+INFO  - 2015-06-25 08:28:18.617; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+INFO  - 2015-06-25 08:28:18.617; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2015-06-25 08:28:18.633; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/dist/solr-cell-5.2.1.jar' to classloader
+INFO  - 2015-06-25 08:28:18.636; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2015-06-25 08:28:18.637; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2015-06-25 08:28:18.637; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2015-06-25 08:28:18.637; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2015-06-25 08:28:18.637; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2015-06-25 08:28:18.637; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2015-06-25 08:28:18.638; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2015-06-25 08:28:18.638; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2015-06-25 08:28:18.638; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/dist/solr-clustering-5.2.1.jar' to classloader
+INFO  - 2015-06-25 08:28:18.645; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2015-06-25 08:28:18.646; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2015-06-25 08:28:18.646; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/dist/solr-langid-5.2.1.jar' to classloader
+INFO  - 2015-06-25 08:28:18.647; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2015-06-25 08:28:18.647; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2015-06-25 08:28:18.647; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2015-06-25 08:28:18.647; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2015-06-25 08:28:18.648; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/innovator/Downloads/solr-5.2.1/dist/solr-velocity-5.2.1.jar' to classloader
+INFO  - 2015-06-25 08:28:19.875; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 5.2.1
+INFO  - 2015-06-25 08:28:20.014; [   ] org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-06-25 08:28:20.024; [   ] org.apache.solr.schema.IndexSchema; Reading Solr Schema from /home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/managed-schema
+INFO  - 2015-06-25 08:28:20.096; [   ] org.apache.solr.schema.IndexSchema; [geospace] Schema name=example-data-driven-schema
+INFO  - 2015-06-25 08:28:20.546; [   ] org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-06-25 08:28:21.162; [   ] org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2015-06-25 08:28:21.169; [   ] org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2015-06-25 08:28:21.218; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'geospace' using configuration from instancedir /home/innovator/Downloads/solr-5.2.1/server/solr/geospace/
+INFO  - 2015-06-25 08:28:21.219; [   geospace] org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2015-06-25 08:28:21.233; [   geospace] org.apache.solr.core.SolrCore; [[geospace] ] Opening new SolrCore at [/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/], dataDir=[null]
+INFO  - 2015-06-25 08:28:21.234; [   geospace] org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2015-06-25 08:28:21.238; [   geospace] org.apache.solr.core.SolrCore; [[geospace] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+INFO  - 2015-06-25 08:28:21.238; [   geospace] org.apache.solr.core.SolrCore; [[geospace] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+INFO  - 2015-06-25 08:28:21.247; [   geospace] org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data
+INFO  - 2015-06-25 08:28:21.248; [   geospace] org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index/
+WARN  - 2015-06-25 08:28:21.248; [   geospace] org.apache.solr.core.SolrCore; [geospace] Solr index directory '/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index' doesn't exist. Creating new index...
+INFO  - 2015-06-25 08:28:21.257; [   geospace] org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index
+INFO  - 2015-06-25 08:28:22.312; [   geospace] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@d405d8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2015-06-25 08:28:22.313; [   geospace] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-06-25 08:28:22.318; [   geospace] org.apache.solr.core.PluginBag; queryResponseWriter : 'velocity' created with startup=lazy 
+INFO  - 2015-06-25 08:28:22.324; [   geospace] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2015-06-25 08:28:22.410; [   geospace] org.apache.solr.update.processor.UpdateRequestProcessorChain; creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+INFO  - 2015-06-25 08:28:22.481; [   geospace] org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-06-25 08:28:22.505; [   geospace] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-06-25 08:28:22.507; [   geospace] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-06-25 08:28:22.508; [   geospace] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-06-25 08:28:22.509; [   geospace] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-06-25 08:28:22.520; [   geospace] org.apache.solr.core.PluginBag; requestHandler : '/update/extract' created with startup=lazy 
+INFO  - 2015-06-25 08:28:22.524; [   geospace] org.apache.solr.core.PluginBag; requestHandler : '/analysis/field' created with startup=lazy 
+INFO  - 2015-06-25 08:28:22.524; [   geospace] org.apache.solr.core.PluginBag; requestHandler : '/analysis/document' created with startup=lazy 
+INFO  - 2015-06-25 08:28:22.526; [   geospace] org.apache.solr.core.PluginBag; requestHandler : '/spell' created with startup=lazy 
+INFO  - 2015-06-25 08:28:22.526; [   geospace] org.apache.solr.core.PluginBag; requestHandler : '/tvrh' created with startup=lazy 
+INFO  - 2015-06-25 08:28:22.526; [   geospace] org.apache.solr.core.PluginBag; requestHandler : '/terms' created with startup=lazy 
+INFO  - 2015-06-25 08:28:22.527; [   geospace] org.apache.solr.core.PluginBag; requestHandler : '/elevate' created with startup=lazy 
+INFO  - 2015-06-25 08:28:22.527; [   geospace] org.apache.solr.core.RequestHandlers; Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/admin/luke,/update,/terms,/stream,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/export,/update/extract,/admin/properties,/tvrh,/spell,/config,/debug/dump
+INFO  - 2015-06-25 08:28:22.529; [   geospace] org.apache.solr.core.SolrCore; Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+INFO  - 2015-06-25 08:28:22.537; [   geospace] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2015-06-25 08:28:22.538; [   geospace] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2015-06-25 08:28:22.544; [   geospace] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2015-06-25 08:28:22.545; [   geospace] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-06-25 08:28:22.547; [   geospace] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@d405d8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2015-06-25 08:28:22.547; [   geospace] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-06-25 08:28:22.557; [   geospace] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@d2cd99[geospace] main
+INFO  - 2015-06-25 08:28:22.561; [   geospace] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf
+INFO  - 2015-06-25 08:28:22.561; [   geospace] org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf}
+INFO  - 2015-06-25 08:28:22.571; [   geospace] org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf
+INFO  - 2015-06-25 08:28:22.571; [   geospace] org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2015-06-25 08:28:22.577; [   geospace] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2015-06-25 08:28:22.583; [   geospace] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2015-06-25 08:28:22.588; [   geospace] org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2015-06-25 08:28:22.590; [   geospace] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/elevate.xml
+INFO  - 2015-06-25 08:28:22.604; [   geospace] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2015-06-25 08:28:22.607; [   geospace] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@d2cd99[geospace] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2015-06-25 08:28:22.608; [   geospace] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2015-06-25 08:28:22.608; [   geospace] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2015-06-25 08:28:22.608; [   geospace] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2015-06-25 08:28:22.608; [   geospace] org.apache.solr.core.SolrCore; [geospace] Registered new searcher Searcher@d2cd99[geospace] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2015-06-25 08:28:22.609; [   geospace] org.apache.solr.update.UpdateLog; Looking up max value of version field to seed version buckets
+INFO  - 2015-06-25 08:28:22.610; [   geospace] org.apache.solr.update.VersionInfo; Refreshing highest value of _version_ for 65536 version buckets from index
+INFO  - 2015-06-25 08:28:22.610; [   geospace] org.apache.solr.update.VersionInfo; No terms found for _version_, cannot seed version bucket highest value from index
+INFO  - 2015-06-25 08:28:22.611; [   geospace] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1504938193176231936
+INFO  - 2015-06-25 08:28:22.618; [   geospace] org.apache.solr.update.UpdateLog; Took 8 ms to seed version buckets with highest version 1504938193176231936
+INFO  - 2015-06-25 08:28:22.619; [   geospace] org.apache.solr.core.CoreContainer; registering core: geospace
+INFO  - 2015-06-25 08:28:22.623; [   geospace] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={instanceDir=geospace&name=geospace&action=CREATE&wt=json} status=0 QTime=4117 
+INFO  - 2015-06-25 08:29:29.761; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1435220969746&wt=json} status=0 QTime=0 
+INFO  - 2015-06-25 08:29:29.876; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={_=1435220969860&wt=json} status=0 QTime=5 
+ERROR - 2015-06-25 08:29:31.773; [   geospace] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-top.html [/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/admin-extra.menu-top.html]
+ERROR - 2015-06-25 08:29:31.775; [   geospace] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-bottom.html [/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/admin-extra.menu-bottom.html]
+INFO  - 2015-06-25 08:29:31.776; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1435220971750&contentType=text/html;charset%3Dutf-8} status=404 QTime=1 
+INFO  - 2015-06-25 08:29:31.780; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1435220971749&contentType=text/html;charset%3Dutf-8} status=404 QTime=3 
+INFO  - 2015-06-25 08:29:31.864; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/luke params={numTerms=0&_=1435220971814&show=index&wt=json} status=0 QTime=3 
+INFO  - 2015-06-25 08:29:31.881; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/replication params={command=details&_=1435220971830&wt=json} status=0 QTime=3 
+INFO  - 2015-06-25 08:29:31.910; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/system params={_=1435220971832&wt=json} status=0 QTime=17 
+ERROR - 2015-06-25 08:29:31.917; [   geospace] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.html [/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/admin-extra.html]
+INFO  - 2015-06-25 08:29:31.918; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1435220971835} status=404 QTime=1 
+INFO  - 2015-06-25 08:29:31.928; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/ping params={action=status&_=1435220971839&wt=json} status=503 QTime=1 
+INFO  - 2015-06-25 08:29:35.961; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/luke params={numTerms=0&_=1435220975947&wt=json} status=0 QTime=1 
+INFO  - 2015-06-25 08:29:35.983; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/luke params={_=1435220975966&show=schema&wt=json} status=0 QTime=5 
+INFO  - 2015-06-25 08:30:45.174; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/luke params={numTerms=0&_=1435221045138&show=index&wt=json} status=0 QTime=1 
+INFO  - 2015-06-25 08:30:45.189; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/replication params={command=details&_=1435221045152&wt=json} status=0 QTime=1 
+INFO  - 2015-06-25 08:30:45.206; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/system params={_=1435221045160&wt=json} status=0 QTime=5 
+ERROR - 2015-06-25 08:30:45.216; [   geospace] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.html [/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/admin-extra.html]
+INFO  - 2015-06-25 08:30:45.217; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1435221045162} status=404 QTime=1 
+INFO  - 2015-06-25 08:30:45.227; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/ping params={action=status&_=1435221045167&wt=json} status=503 QTime=0 
+INFO  - 2015-06-25 08:30:48.368; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/luke params={numTerms=0&_=1435221048355&wt=json} status=0 QTime=1 
+INFO  - 2015-06-25 08:30:48.410; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/luke params={_=1435221048371&show=schema&wt=json} status=0 QTime=18 
+INFO  - 2015-06-25 08:31:06.919; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1435221066902&wt=json} status=0 QTime=1 
+INFO  - 2015-06-25 08:31:07.049; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={_=1435221067036&wt=json} status=0 QTime=3 
+INFO  - 2015-06-25 08:31:07.122; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/luke params={numTerms=0&_=1435221067108&wt=json} status=0 QTime=0 
+INFO  - 2015-06-25 08:31:07.149; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/luke params={_=1435221067127&show=schema&wt=json} status=0 QTime=10 
+INFO  - 2015-06-25 08:34:17.684; [   geospace] org.apache.solr.schema.ManagedIndexSchema; Upgraded to managed schema at /home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/managed-schema
+INFO  - 2015-06-25 08:34:17.725; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/schema params={} status=0 QTime=692 
+INFO  - 2015-06-25 08:37:31.245; [   geospace] org.apache.solr.schema.ManagedIndexSchema; Upgraded to managed schema at /home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/managed-schema
+INFO  - 2015-06-25 08:37:31.441; [   geospace] org.apache.solr.update.processor.LogUpdateProcessor; [geospace] webapp=/solr path=/update params={} {add=[1c975371-ae57-4823-b162-40a91b975ef4 (1504938768309682176), fdf6bdea-11aa-43b5-8833-8fd208c89401 (1504938768366305280), 6ed56fb9-75b6-4df2-ba0a-e944218969eb (1504938768369451008), 16fe9837-08c1-4c25-8bde-9fc43688396f (1504938768372596736), f45f2418-c7be-4513-b01d-f712c876d26a (1504938768375742464), 3bbc4008-a0cf-4d2a-a6e4-4cc366402636 (1504938768377839616), b0329758-273e-4650-b304-a6f4ba294ee9 (1504938768382033920), f6a4c235-3ac1-43ad-a823-d689be8af018 (1504938768385179648), f35c5199-a65e-4ff8-bed8-550cef5a6693 (1504938768388325376), a41c2690-3c70-4e15-951e-a0b89238e4c5 (1504938768392519680), ... (78 adds)]} 0 364
+INFO  - 2015-06-25 08:37:32.480; [   geospace] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2015-06-25 08:37:33.097; [   geospace] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@d405d8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@d405d8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+INFO  - 2015-06-25 08:37:33.098; [   geospace] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 2
+INFO  - 2015-06-25 08:37:33.127; [   geospace] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@4b3719[geospace] main
+INFO  - 2015-06-25 08:37:33.130; [   geospace] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2015-06-25 08:37:33.131; [   geospace] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@4b3719[geospace] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.2.1):C78)))}
+INFO  - 2015-06-25 08:37:33.132; [   geospace] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2015-06-25 08:37:33.132; [   geospace] org.apache.solr.core.SolrCore; [geospace] Registered new searcher Searcher@4b3719[geospace] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.2.1):C78)))}
+INFO  - 2015-06-25 08:37:33.133; [   geospace] org.apache.solr.update.processor.LogUpdateProcessor; [geospace] webapp=/solr path=/update params={commit=true} {commit=} 0 654
+INFO  - 2015-06-25 08:37:53.074; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1435221473056&wt=json} status=0 QTime=1 
+INFO  - 2015-06-25 08:37:53.925; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={_=1435221473181&wt=json} status=0 QTime=732 
+ERROR - 2015-06-25 08:37:58.559; [   geospace] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-top.html [/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/admin-extra.menu-top.html]
+INFO  - 2015-06-25 08:37:58.560; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1435221478517&contentType=text/html;charset%3Dutf-8} status=404 QTime=1 
+ERROR - 2015-06-25 08:37:58.559; [   geospace] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-bottom.html [/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/admin-extra.menu-bottom.html]
+INFO  - 2015-06-25 08:37:58.560; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1435221478518&contentType=text/html;charset%3Dutf-8} status=404 QTime=1 
+INFO  - 2015-06-25 08:37:58.596; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/luke params={numTerms=0&_=1435221478569&show=index&wt=json} status=0 QTime=1 
+INFO  - 2015-06-25 08:37:58.610; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/replication params={command=details&_=1435221478579&wt=json} status=0 QTime=2 
+ERROR - 2015-06-25 08:37:58.654; [   geospace] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.html [/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/admin-extra.html]
+INFO  - 2015-06-25 08:37:58.654; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/ping params={action=status&_=1435221478588&wt=json} status=503 QTime=0 
+INFO  - 2015-06-25 08:37:58.655; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1435221478584} status=404 QTime=1 
+INFO  - 2015-06-25 08:37:58.659; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/system params={_=1435221478582&wt=json} status=0 QTime=5 
+INFO  - 2015-06-25 08:38:12.673; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={} hits=78 status=0 QTime=38 
+INFO  - 2015-06-25 08:38:12.674; [   geospace] org.apache.solr.core.PluginBag$LazyPluginHolder; Going to create a new queryResponseWriter with {type = queryResponseWriter,name = velocity,class = solr.VelocityResponseWriter,args = {template.base.dir=}} 
+INFO  - 2015-06-25 08:39:06.101; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={} hits=78 status=0 QTime=1 
+ERROR - 2015-06-25 08:39:06.170; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 08:39:06.177; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 08:39:06.582; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 08:39:06.593; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 08:39:06.595; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=1 
+INFO  - 2015-06-25 08:39:16.921; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={queryOpts=spatial} hits=78 status=0 QTime=1 
+ERROR - 2015-06-25 08:39:16.953; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 08:39:16.956; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 08:39:17.140; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 08:39:17.143; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+INFO  - 2015-06-25 08:39:17.143; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+ERROR - 2015-06-25 08:39:27.194; [   geospace] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: undefined field: "manu_exact"
+	at org.apache.solr.schema.IndexSchema.getField(IndexSchema.java:1229)
+	at org.apache.solr.search.Grouping.addFieldCommand(Grouping.java:152)
+	at org.apache.solr.handler.component.QueryComponent.process(QueryComponent.java:471)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:255)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2064)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:450)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2015-06-25 08:39:27.194; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={group.field=manu_exact&queryOpts=group&group=true} status=400 QTime=9 
+ERROR - 2015-06-25 08:39:27.218; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 08:39:27.220; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($field.size()) of '>' operation has null value at VM_global_library.vm[line 82, column 22]
+ERROR - 2015-06-25 08:39:27.222; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 08:39:27.339; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 08:39:27.340; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 08:39:27.342; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+ERROR - 2015-06-25 08:40:12.669; [   geospace] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: undefined field: "manu_exact"
+	at org.apache.solr.schema.IndexSchema.getField(IndexSchema.java:1229)
+	at org.apache.solr.search.Grouping.addFieldCommand(Grouping.java:152)
+	at org.apache.solr.handler.component.QueryComponent.process(QueryComponent.java:471)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:255)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2064)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:450)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2015-06-25 08:40:12.669; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={group.field=manu_exact&queryOpts=group&group=true} status=400 QTime=1 
+ERROR - 2015-06-25 08:40:12.699; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 08:40:12.701; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($field.size()) of '>' operation has null value at VM_global_library.vm[line 82, column 22]
+ERROR - 2015-06-25 08:40:12.703; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 08:40:12.943; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 08:40:12.944; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 08:40:12.945; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+INFO  - 2015-06-25 08:40:14.531; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={} hits=78 status=0 QTime=1 
+ERROR - 2015-06-25 08:40:14.556; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 08:40:14.558; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 08:40:14.764; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 08:40:14.765; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 08:40:15.385; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=1 
+INFO  - 2015-06-25 08:42:05.426; [   geospace] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@1adc939[geospace] realtime
+INFO  - 2015-06-25 08:42:05.427; [   geospace] org.apache.solr.update.processor.LogUpdateProcessor; [geospace] webapp=/solr path=/update params={} {deleteByQuery=*:* (-1504939055913107456)} 0 489
+INFO  - 2015-06-25 08:42:20.427; [   geospace] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2015-06-25 08:42:20.649; [   geospace] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@d405d8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@d405d8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+INFO  - 2015-06-25 08:42:20.650; [   geospace] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 3
+INFO  - 2015-06-25 08:42:20.651; [   geospace] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@ec44a6[geospace] realtime
+INFO  - 2015-06-25 08:42:20.652; [   geospace] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2015-06-25 08:42:24.990; [   geospace] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2015-06-25 08:42:24.990; [   geospace] org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2015-06-25 08:42:24.991; [   geospace] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@170e076[geospace] main
+INFO  - 2015-06-25 08:42:24.991; [   geospace] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2015-06-25 08:42:24.992; [   geospace] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@170e076[geospace] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2015-06-25 08:42:24.992; [   geospace] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2015-06-25 08:42:24.992; [   geospace] org.apache.solr.core.SolrCore; [geospace] Registered new searcher Searcher@170e076[geospace] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2015-06-25 08:42:24.995; [   geospace] org.apache.solr.update.processor.LogUpdateProcessor; [geospace] webapp=/solr path=/update params={} {commit=} 0 6
+INFO  - 2015-06-25 08:42:30.463; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1435221750447&wt=json} status=0 QTime=0 
+INFO  - 2015-06-25 08:42:31.632; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={_=1435221750609&wt=json} status=0 QTime=1011 
+INFO  - 2015-06-25 08:42:31.678; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/luke params={numTerms=0&_=1435221751662&wt=json} status=0 QTime=1 
+INFO  - 2015-06-25 08:42:31.703; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/luke params={_=1435221751683&show=schema&wt=json} status=0 QTime=3 
+ERROR - 2015-06-25 08:42:33.875; [   geospace] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-top.html [/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/admin-extra.menu-top.html]
+INFO  - 2015-06-25 08:42:33.875; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1435221753861&contentType=text/html;charset%3Dutf-8} status=404 QTime=1 
+ERROR - 2015-06-25 08:42:33.891; [   geospace] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-bottom.html [/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/admin-extra.menu-bottom.html]
+INFO  - 2015-06-25 08:42:33.891; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1435221753861&contentType=text/html;charset%3Dutf-8} status=404 QTime=1 
+INFO  - 2015-06-25 08:42:33.939; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/luke params={numTerms=0&_=1435221753912&show=index&wt=json} status=0 QTime=1 
+INFO  - 2015-06-25 08:42:33.958; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/replication params={command=details&_=1435221753925&wt=json} status=0 QTime=1 
+INFO  - 2015-06-25 08:42:33.974; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/system params={_=1435221753927&wt=json} status=0 QTime=4 
+ERROR - 2015-06-25 08:42:33.976; [   geospace] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.html [/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/conf/admin-extra.html]
+INFO  - 2015-06-25 08:42:33.977; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1435221753930} status=404 QTime=1 
+INFO  - 2015-06-25 08:42:33.988; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/ping params={action=status&_=1435221753933&wt=json} status=503 QTime=0 
+INFO  - 2015-06-25 08:44:53.824; [   geospace] org.apache.solr.update.processor.LogUpdateProcessor; [geospace] webapp=/solr path=/update params={} {add=[e9521bfd-4022-449d-99b8-cb8c7780e783 (1504939232395788288), ba9e1930-13d7-494a-98f1-42c7ff81c8d0 (1504939232404176896), 06831ca7-e1ed-4723-a254-ac03ebdf173f (1504939232406274048), 89283184-b4ee-4a1e-a949-991b22fdbf95 (1504939232408371200), 85ae1130-9c07-4127-bdd0-2ddc034f69e4 (1504939232410468352), a2f7edad-1062-4039-8815-2cad0bf9478d (1504939232412565504), ccc10315-853d-4ff5-9e50-34ebc7f71191 (1504939232413614080), 6b142b25-5b41-4b89-8622-ce323d14e54d (1504939232415711232), 68ccd3c5-716c-4846-851a-e04ac3420801 (1504939232417808384), 3efdc20b-9553-4742-8262-92ce1f53b47b (1504939232419905536), ... (78 adds)]} 0 138
+INFO  - 2015-06-25 08:44:53.828; [   geospace] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2015-06-25 08:44:54.301; [   geospace] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@d405d8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+	commit{dir=NRTCachingDirectory(NIOFSDirectory@/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@d405d8; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+INFO  - 2015-06-25 08:44:54.302; [   geospace] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 4
+INFO  - 2015-06-25 08:44:54.312; [   geospace] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@494bdd[geospace] main
+INFO  - 2015-06-25 08:44:54.314; [   geospace] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2015-06-25 08:44:54.314; [   geospace] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@494bdd[geospace] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(5.2.1):C78)))}
+INFO  - 2015-06-25 08:44:54.315; [   geospace] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2015-06-25 08:44:54.315; [   geospace] org.apache.solr.core.SolrCore; [geospace] Registered new searcher Searcher@494bdd[geospace] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(5.2.1):C78)))}
+INFO  - 2015-06-25 08:44:54.316; [   geospace] org.apache.solr.update.processor.LogUpdateProcessor; [geospace] webapp=/solr path=/update params={commit=true} {commit=} 0 488
+INFO  - 2015-06-25 08:45:01.269; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={} hits=78 status=0 QTime=1 
+ERROR - 2015-06-25 08:45:01.320; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 08:45:01.322; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 08:45:01.560; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 08:45:01.562; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+INFO  - 2015-06-25 08:45:01.562; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 09:03:58.619; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={queryOpts=spatial} hits=78 status=0 QTime=1 
+ERROR - 2015-06-25 09:03:58.681; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 09:03:58.686; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 09:03:58.900; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 09:03:58.902; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+INFO  - 2015-06-25 09:03:58.904; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1 
+ERROR - 2015-06-25 09:04:01.068; [   geospace] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: undefined field: "manu_exact"
+	at org.apache.solr.schema.IndexSchema.getField(IndexSchema.java:1229)
+	at org.apache.solr.search.Grouping.addFieldCommand(Grouping.java:152)
+	at org.apache.solr.handler.component.QueryComponent.process(QueryComponent.java:471)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:255)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2064)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:450)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2015-06-25 09:04:01.069; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={group.field=manu_exact&queryOpts=group&group=true} status=400 QTime=1 
+ERROR - 2015-06-25 09:04:01.091; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 09:04:01.092; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($field.size()) of '>' operation has null value at VM_global_library.vm[line 82, column 22]
+ERROR - 2015-06-25 09:04:01.093; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 09:04:01.224; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 09:04:01.224; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 09:04:01.226; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=1 
+INFO  - 2015-06-25 09:04:04.903; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={q=&group.field=City&queryOpts=group&group=true} hits=78 status=0 QTime=19 
+ERROR - 2015-06-25 09:04:04.925; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 09:04:04.928; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 09:04:05.084; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 09:04:05.090; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 09:04:05.091; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+INFO  - 2015-06-25 09:04:11.482; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={q=&group.field=Company&queryOpts=group&group=true} hits=78 status=0 QTime=4 
+ERROR - 2015-06-25 09:04:11.507; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 09:04:11.509; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 09:04:11.676; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 09:04:11.678; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 09:04:11.680; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+INFO  - 2015-06-25 09:04:16.536; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={q=&group.field=City&queryOpts=group&group=true} hits=78 status=0 QTime=2 
+ERROR - 2015-06-25 09:04:16.556; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 09:04:16.559; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 09:04:16.659; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 09:04:16.661; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 09:04:16.673; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=1 
+INFO  - 2015-06-25 09:04:26.885; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={q=&group.field=Reports_To&queryOpts=group&group=true} hits=78 status=0 QTime=3 
+ERROR - 2015-06-25 09:04:26.917; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 09:04:26.919; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 09:04:27.088; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 09:04:27.089; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 09:04:27.091; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+INFO  - 2015-06-25 09:04:31.252; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={q=&group.field=Title&queryOpts=group&group=true} hits=78 status=0 QTime=3 
+ERROR - 2015-06-25 09:04:31.281; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 09:04:31.283; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 09:04:31.421; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 09:04:31.422; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 09:04:31.423; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=1 
+INFO  - 2015-06-25 09:04:34.158; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={queryOpts=spatial} hits=78 status=0 QTime=1 
+ERROR - 2015-06-25 09:04:34.178; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 09:04:34.183; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 09:04:34.288; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 09:04:34.291; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 09:04:34.294; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=1 
+ERROR - 2015-06-25 09:04:42.929; [   geospace] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Missing required parameter: mlt.fl
+	at org.apache.solr.common.params.RequiredSolrParams.getParams(RequiredSolrParams.java:91)
+	at org.apache.solr.handler.MoreLikeThisHandler$MoreLikeThisHelper.<init>(MoreLikeThisHandler.java:318)
+	at org.apache.solr.handler.component.MoreLikeThisComponent.getMoreLikeThese(MoreLikeThisComponent.java:357)
+	at org.apache.solr.handler.component.MoreLikeThisComponent.process(MoreLikeThisComponent.java:123)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:255)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2064)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:450)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:227)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:196)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2015-06-25 09:04:42.929; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={q=Industry:"Minerals+&mlt=true&queryOpts=spatial&Mining"=} hits=0 status=400 QTime=12 
+ERROR - 2015-06-25 09:04:42.949; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 09:04:42.950; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 09:04:43.061; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 09:04:43.064; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+INFO  - 2015-06-25 09:04:43.064; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 09:07:10.222; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/browse params={d=10&q=&sfield=Point&pt=35.77126,-83.974397&queryOpts=spatial&queryOpts=spatial&fq={!bbox}} hits=5 status=0 QTime=19 
+ERROR - 2015-06-25 09:07:10.314; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+ERROR - 2015-06-25 09:07:10.318; [   geospace] org.apache.solr.response.SolrVelocityLogger; Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+INFO  - 2015-06-25 09:07:10.414; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+INFO  - 2015-06-25 09:07:10.415; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1 
+INFO  - 2015-06-25 09:07:10.416; [   geospace] org.apache.solr.core.SolrCore; [geospace] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+INFO  - 2015-06-25 09:09:06.361; [   ] org.eclipse.jetty.server.AbstractConnector; Stopped ServerConnector@9d2ec8{HTTP/1.1}{0.0.0.0:8983}
+INFO  - 2015-06-25 09:09:06.362; [   ] org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=10194717
+INFO  - 2015-06-25 09:09:06.413; [   ] org.apache.solr.core.SolrCore; [geospace]  CLOSING SolrCore org.apache.solr.core.SolrCore@1e548a2
+INFO  - 2015-06-25 09:09:06.422; [   ] org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=4,autocommit maxTime=15000ms,autocommits=1,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=156,cumulative_deletesById=0,cumulative_deletesByQuery=1,cumulative_errors=0,transaction_logs_total_size=64685,transaction_logs_total_number=3}
+INFO  - 2015-06-25 09:09:06.422; [   ] org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-06-25 09:09:06.422; [   ] org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-06-25 09:09:06.422; [   ] org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-06-25 09:09:06.424; [   ] org.apache.solr.core.SolrCore; [geospace] Closing main searcher on request.
+INFO  - 2015-06-25 09:09:06.426; [   ] org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-06-25 09:09:06.428; [   ] org.apache.solr.core.CachingDirectoryFactory; looking to close /home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data [CachedDir<<refCount=0;path=/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data;done=false>>]
+INFO  - 2015-06-25 09:09:06.428; [   ] org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data
+INFO  - 2015-06-25 09:09:06.429; [   ] org.apache.solr.core.CachingDirectoryFactory; looking to close /home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index [CachedDir<<refCount=0;path=/home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index;done=false>>]
+INFO  - 2015-06-25 09:09:06.429; [   ] org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/innovator/Downloads/solr-5.2.1/server/solr/geospace/data/index
+INFO  - 2015-06-25 09:09:06.433; [   ] org.eclipse.jetty.server.handler.ContextHandler; Stopped o.e.j.w.WebAppContext@18aac0a{/solr,file:/home/innovator/Downloads/solr-5.2.1/server/solr-webapp/webapp/,UNAVAILABLE}{/solr.war}

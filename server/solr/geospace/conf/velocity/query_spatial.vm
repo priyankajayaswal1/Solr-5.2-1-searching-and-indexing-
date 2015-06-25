@@ -1,0 +1,75 @@
+#**
+ *  Query logic for selecting location / Geospatial search
+ *#
+
+#set($queryOpts = $params.get("queryOpts"))
+
+#if($queryOpts == "spatial")
+
+  <div>
+
+    #set($loc = $request.params.get('pt'))
+    ## Normalize first trip through to "none" because
+    ## an empty string generates an error message later on
+    #if( ! $loc )
+      #set( $loc = "none" )
+    #end
+
+    #set($dist = $request.params.get('d', "10"))
+
+    ## Cities for The Select List
+    #set( $cities = {
+      "none": "No Filter",
+      "35.77126,-83.974397": "300 N Hall Rd Alcoa, TN 37701, USA, MN",
+      "40.705978,-74.97631": "74-140 Valley Rd Hampton, NJ 08827, USA",
+      "41.590505,-92.595783": "181-193 Woodland Rd Montezuma, IA 50171, USA",
+      "36.322298,-119.264612": "2520 E Westcott Ave Visalia, CA 93292, USA"
+    })
+
+    <label #annTitle("Add the &pt parameter")>
+      Location Filter:
+      <select id="pt" name="pt">
+
+        ## Generate <option> tag for each city
+        #foreach( $city_lon_lat in $cities.keySet() )
+          #set( $city_name = $cities.get($city_lon_lat) )
+          <option value="$city_lon_lat"
+            #if($loc == $city_lon_lat)selected="true"#end
+          >
+            $city_name
+          </option>
+        #end
+
+      </select>
+
+    </label>
+
+    <span #annTitle("Add the &d parameter")>
+      Distance (KM):
+      <input id="d" name="d" type="text" size="6"
+        value="#if($dist != '')${dist}#{else}10#end"  ## TODO: isn't the default of 10 above sufficient?  no if/else needed?
+      />
+    </span>
+
+    <input type="hidden" name="sfield" value="Point"/>
+    <input type="hidden" id="spatialFQ" name="fq" value=""/>
+    <input type="hidden" name="queryOpts" value="spatial"/>        
+
+  </div>
+
+  <script type="text/javascript">
+    $('#query-form').submit(function() {
+      if ($("#pt").val() != "none") {
+        $("#spatialFQ").val("{!bbox}");
+      }
+      $fqs = $("#allFQs").val();
+      $fqs = $fqs.replace("{!bbox}", "");
+      if ($fqs == ''){
+        $("#allFQs").remove();
+      }
+      $("#allFQs").val($fqs);
+      return true;
+    });
+  </script>
+
+#end
